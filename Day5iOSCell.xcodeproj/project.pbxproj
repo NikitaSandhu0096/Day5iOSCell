@@ -13,6 +13,8 @@
 		9B4DF3D82416F76E007F8DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF3D62416F76E007F8DC5 /* Main.storyboard */; };
 		9B4DF3DA2416F772007F8DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF3D92416F772007F8DC5 /* Assets.xcassets */; };
 		9B4DF3DD2416F772007F8DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF3DB2416F772007F8DC5 /* LaunchScreen.storyboard */; };
+		9B4DF3E52416F787007F8DC5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF3E42416F787007F8DC5 /* Person.swift */; };
+		9B4DF3E72416FC36007F8DC5 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF3E62416FC36007F8DC5 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9B4DF3D92416F772007F8DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B4DF3DC2416F772007F8DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B4DF3DE2416F772007F8DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4DF3E42416F787007F8DC5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B4DF3E62416FC36007F8DC5 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9B4DF3D92416F772007F8DC5 /* Assets.xcassets */,
 				9B4DF3DB2416F772007F8DC5 /* LaunchScreen.storyboard */,
 				9B4DF3DE2416F772007F8DC5 /* Info.plist */,
+				9B4DF3E42416F787007F8DC5 /* Person.swift */,
+				9B4DF3E62416FC36007F8DC5 /* PersonTableViewCell.swift */,
 			);
 			path = Day5iOSCell;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				9B4DF3D52416F76E007F8DC5 /* ViewController.swift in Sources */,
 				9B4DF3D12416F76E007F8DC5 /* AppDelegate.swift in Sources */,
+				9B4DF3E52416F787007F8DC5 /* Person.swift in Sources */,
+				9B4DF3E72416FC36007F8DC5 /* PersonTableViewCell.swift in Sources */,
 				9B4DF3D32416F76E007F8DC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
